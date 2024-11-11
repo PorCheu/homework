@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice 3</title>
+    <style>
+        body {
+            display: flex;
+            background-color: aliceblue;
+            flex-direction: column;
+        }
+        
+        .header {
+            color: white;
+            background-color: #1e90ff;
+            border-radius: 0.5rem;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-left: 10px;
+            flex-grow: 1;
+            box-shadow: 0px 3px#0077ea;
+        }
+        
+        .center {
+            display: flex;
+        }
+        
+        .main {
+            display: flex;
+            margin-top: 15px;
+            background-color: #3cb371;
+            box-shadow: 0px 3px#2f8d59;
+            border-radius: 0.5rem;
+            color: white;
+            flex-grow: 3;
+            padding-top: 30px;
+            padding-left: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        
+        .item {
+            display: flex;
+            text-align: center;
+            padding: 30px;
+            background-color: #2f8d59;
+            box-shadow: 0px 3px #226741;
+            border-radius: 0.5rem;
+            margin-right: 10px;
+            justify-content: space-evenly;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .sidebar {
+            margin-top: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-left: 20px;
+            flex-grow: 1;
+            margin-left: 20px;
+            color: white;
+            margin-top: 10px;
+            background-color: #ff6347;
+            border-radius: 0.5rem;
+            flex-direction: row;
+            box-shadow: 0px 3px#e02200;
+        }
+        
+        .footer {
+            flex-grow: 1;
+            background-color: #4169e1;
+            margin-top: 15px;
+            border-radius: 0.5rem;
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            box-shadow: 0px 3px#1d44b8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Header</div>
+    <div class="center">
+        <section class="main">main
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+            <p class="item">item</p>
+        </section>
+        <section class="sidebar">sidebar</section>
+    </div>
+    <div class="footer">footer</div>
+</body>
+
+</html>
